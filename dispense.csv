@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<!--[if IE 7]> <html lang="en" class="ie ie7"> <![endif]-->
+<!--[if IE 8]> <html lang="en" class="ie ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+  <head>
+    <!--[if lte ie 8]><script type="text/javascript" src="/fanstatic/vendor/:version:2019-01-16T12:07:16/html5.min.js"></script><![endif]-->
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2019-01-16T12:07:16/select2/select2.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/css/:version:2019-01-16T12:07:16/main.min.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2019-01-16T12:07:16/font-awesome/css/font-awesome.min.css" />
+<!--[if ie 7]><link rel="stylesheet" type="text/css" href="/fanstatic/vendor/:version:2019-01-16T12:07:16/font-awesome/css/font-awesome-ie7.min.css" /><![endif]-->
+<link rel="stylesheet" type="text/css" href="/fanstatic/ckanext-geoview/:version:2019-01-16T13:31:00/css/geo-resource-styles.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/ckanext-harvest/:version:2019-01-16T12:07:16/styles/harvest.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/opendatani/:version:2019-01-16T13:32:15/css/theme.css" />
+<link rel="stylesheet" type="text/css" href="/fanstatic/pages/:version:2019-01-16T13:32:05/:bundle:css/bootstrap.css;css/medium-editor.css" />
+
+    <meta charset="utf-8" />
+      <meta name="generator" content="ckan 2.6.6" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dispensing by Contractor - Datasets - Open Data NI</title>
+
+    
+    
+   
+    
+  <link rel="shortcut icon" href="/favicon.ico" />
+    
+  
+    <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-26858713-2', 'auto', {});
+     
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+</script>
+  
+
+
+    <!--[if IE]>
+    <script src="/classList.min.js"></script>
+    <![endif]-->
+
+    
+    
+    
+    
+
+   <link rel="alternate" type="text/n3" href="https://www.opendatani.gov.uk/dataset/f6f91659-7687-4d99-8813-60e9f38c41ce.n3"/>
+   <link rel="alternate" type="text/ttl" href="https://www.opendatani.gov.uk/dataset/f6f91659-7687-4d99-8813-60e9f38c41ce.ttl"/>
+   <link rel="alternate" type="application/rdf+xml" href="https://www.opendatani.gov.uk/dataset/f6f91659-7687-4d99-8813-60e9f38c41ce.xml"/>
+
+    
+  
+  
+      
+    
+  
+
+  
+
+    
+
+
+    
+      
+      
+    
+  
+  <meta property="og:title" content="Dispensing by Contractor - Open Data NI">
+  <meta property="og:description" content="The data covers prescriptions that are prescribed in Northern Ireland by GPs or Nurses (within a GP practice), that are subsequently dispensed by a community pharmacist, dispensing doctor or...">
+
+    
+  </head>
+
+  
+  <body data-site-root="https://www.opendatani.gov.uk/" data-locale-root="https://www.opendatani.gov.uk/" >
+
+    
+    <div class="hide"><a href="#content">Skip to content</a></div>
+  
+
+  
+    
+
+  <header class="account-masthead">
+    <div class="container">
+      
+        
+          <nav class="account not-authed">
+            <ul class="unstyled">
+              
+    
+  <li><a href="/user/login">Log in</a></li>
+  
+    <li><a class="sub" href="/privacy_notice_reg">Register</a></li>
+  
+
+    
+    <li>
+      <a href="/contact" title="Contact">
+        
+           Contact
+        
+      </a>
+    </li>
+
+
+            </ul>
+          </nav>
+        
+      
+    </div>
+  </header>
+
+<header class="navbar navbar-static-top masthead">
+  
+    
+  
+  <div class="container">
+    <button data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar" type="button">
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    
+    <hgroup class="header-image pull-left">
+
+      
+        
+          <a class="logo" href="/"><img src="/base/images/ckan-logo.png" alt="Open Data NI" title="Open Data NI" /></a>
+        
+      
+
+    </hgroup>
+
+    <div class="nav-collapse collapse">
+
+      
+  <nav class="section navigation">
+    <ul class="nav nav-pills">
+      
+        <li><a href="/">Home</a></li><li><a href="/dataset">Datasets</a></li><li><a href="/organization">Publisher</a></li><li><a href="/showcase">Showcases</a></li><li><a href="/datarequest">Suggest Data</a></li><li><a href="/pages/links">Links</a></li>
+      
+      <li><a href="/blog">News</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/contact" title="Contact">Contact</a></li>
+    </ul>
+  </nav>
+
+
+      
+  <form class="section site-search simple-input" action="/dataset" method="get">
+    <div class="field">
+      <label for="field-sitewide-search"><i class="icon-search"></i><span>Search Datasets</span></label>
+      <input id="field-sitewide-search" type="text" name="q" placeholder="Search our data" />
+      <button class="btn-search" type="submit">Go</button>
+    </div>
+  </form>
+
+
+    </div>
+  </div>
+</header>
+
+  
+    <div role="main">
+      <div id="content" class="container">
+        
+          
+            <div class="flash-messages">
+              
+                
+              
+            </div>
+          
+
+          
+            <div class="toolbar">
+              
+                
+                  <ol class="breadcrumb">
+                    
+<li class="home"><a href="/"><i class="icon-home"></i><span> Home</span></a></li>
+                    
+
+    
+    
+      
+      <li><a href="/organization">Organizations</a></li>
+      
+      
+          <li><a href="/organization/department-of-health">Department of Health</a></li>
+      
+      <li><a href="/organization/business-services-organisation">Business Services Organisation</a></li>
+    
+    <li class="active"><a class=" active" href="/dataset/dispensing-by-contractor">Dispensing by Contractor</a></li>
+  
+
+
+                  </ol>
+                
+              
+            </div>
+          
+
+          <div class="row wrapper">
+
+            
+            
+            
+
+            
+              <div class="primary span9">
+                
+                
+                  <article class="module">
+                    
+                      <header class="module-content page-header">
+                        
+                        <ul class="nav nav-tabs">
+                          
+  
+  <li class="active"><a href="/dataset/dispensing-by-contractor">Dataset</a></li>
+  <li><a href="/dataset/groups/dispensing-by-contractor"><i class="icon-group"></i> Groups</a></li>
+  <li><a href="/dataset/activity/dispensing-by-contractor"><i class="icon-time"></i> Activity Stream</a></li>
+
+  <li><a href="/dataset/showcases/dispensing-by-contractor"><i class="icon-picture"></i> Showcases</a></li>
+
+                        </ul>
+                      </header>
+                    
+                    <div class="module-content">
+                      
+                      
+  
+  
+    
+      
+    
+
+  
+    
+    <h1>
+      
+        Dispensing by Contractor
+        
+        
+      
+    </h1>
+    
+    <div class="notes embedded-content">
+      <p>The data covers prescriptions that are prescribed in Northern Ireland by GPs or Nurses (within a GP practice), that are subsequently dispensed by a community pharmacist, dispensing doctor or appliance supplier and are finally submitted to the Business Services Organisation (BSO) for payment and have been paid.</p>
+    </div>
+  
+
+    
+    <span class="insert-comment-thread"></span>
+  
+
+  
+    
+<section id="dataset-resources" class="resources">
+  <h3>Data and Resources</h3>
+  
+    
+      <ul class="resource-list">
+        
+          
+            
+
+
+
+<li class="resource-item" data-id="b3c748d2-e0c6-4ab1-9a55-7d35257d6145">
+  
+  
+  <a class="heading" href="/dataset/dispensing-by-contractor/resource/b3c748d2-e0c6-4ab1-9a55-7d35257d6145" title="Dispensed Items by GP and Pharmacy, November 2018">
+    Dispensed Items by GP and Pharmacy, November 2018<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+  
+
+  
+    <p class="description">
+      
+        For each GP practice in Northern Ireland, the following information is...
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <i class="icon-share-alt"></i>
+      Explore
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      
+      <li>
+        <a href="/dataset/dispensing-by-contractor/resource/b3c748d2-e0c6-4ab1-9a55-7d35257d6145">
+          
+            <i class="icon-bar-chart"></i>
+            Preview
+          
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://www.opendatani.gov.uk/dataset/f6f91659-7687-4d99-8813-60e9f38c41ce/resource/b3c748d2-e0c6-4ab1-9a55-7d35257d6145/download/dispensed-items-by-gp-and-pharmacy-november-2018.csv" class="resource-url-analytics" target="_blank">
+          
+            <i class="icon-download"></i>
+            Download
+          
+        </a>
+      </li>
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+          
+            
+
+
+
+<li class="resource-item" data-id="d373386e-353c-4128-993e-20aa174f4794">
+  
+  
+  <a class="heading" href="/dataset/dispensing-by-contractor/resource/d373386e-353c-4128-993e-20aa174f4794" title="Dispensed Items by GP and Pharmacy, October 2018">
+    Dispensed Items by GP and Pharmacy, October 2018<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+  
+
+  
+    <p class="description">
+      
+        For each GP practice in Northern Ireland, the following information is...
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <i class="icon-share-alt"></i>
+      Explore
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      
+      <li>
+        <a href="/dataset/dispensing-by-contractor/resource/d373386e-353c-4128-993e-20aa174f4794">
+          
+            <i class="icon-bar-chart"></i>
+            Preview
+          
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://www.opendatani.gov.uk/dataset/f6f91659-7687-4d99-8813-60e9f38c41ce/resource/d373386e-353c-4128-993e-20aa174f4794/download/dispensed-items-by-gp-and-pharmacy-october-2018.csv" class="resource-url-analytics" target="_blank">
+          
+            <i class="icon-download"></i>
+            Download
+          
+        </a>
+      </li>
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+          
+            
+
+
+
+<li class="resource-item" data-id="b54b26c1-e8a5-446d-8044-be38c7ad1b94">
+  
+  
+  <a class="heading" href="/dataset/dispensing-by-contractor/resource/b54b26c1-e8a5-446d-8044-be38c7ad1b94" title="Dispensed Items by GP and Pharmacy, September 2018">
+    Dispensed Items by GP and Pharmacy, September 2018<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+  
+
+  
+    <p class="description">
+      
+        For each GP practice in Northern Ireland, the following information is...
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <i class="icon-share-alt"></i>
+      Explore
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      
+      <li>
+        <a href="/dataset/dispensing-by-contractor/resource/b54b26c1-e8a5-446d-8044-be38c7ad1b94">
+          
+            <i class="icon-bar-chart"></i>
+            Preview
+          
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://www.opendatani.gov.uk/dataset/f6f91659-7687-4d99-8813-60e9f38c41ce/resource/b54b26c1-e8a5-446d-8044-be38c7ad1b94/download/dispensed-items-by-gp-and-pharmacy-september-2018.csv" class="resource-url-analytics" target="_blank">
+          
+            <i class="icon-download"></i>
+            Download
+          
+        </a>
+      </li>
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+          
+            
+
+
+
+<li class="resource-item" data-id="0c59fe18-7d29-4213-9aa7-bd4f572d2eeb">
+  
+  
+  <a class="heading" href="/dataset/dispensing-by-contractor/resource/0c59fe18-7d29-4213-9aa7-bd4f572d2eeb" title="Dispensed Items by GP and Pharmacy, August 2018">
+    Dispensed Items by GP and Pharmacy, August 2018<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+  
+
+  
+    <p class="description">
+      
+        For each GP practice in Northern Ireland, the following information is...
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <i class="icon-share-alt"></i>
+      Explore
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      
+      <li>
+        <a href="/dataset/dispensing-by-contractor/resource/0c59fe18-7d29-4213-9aa7-bd4f572d2eeb">
+          
+            <i class="icon-bar-chart"></i>
+            Preview
+          
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://www.opendatani.gov.uk/dataset/f6f91659-7687-4d99-8813-60e9f38c41ce/resource/0c59fe18-7d29-4213-9aa7-bd4f572d2eeb/download/dispensed-items-by-gp-and-pharmacy-august-2018.csv" class="resource-url-analytics" target="_blank">
+          
+            <i class="icon-download"></i>
+            Download
+          
+        </a>
+      </li>
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+          
+            
+
+
+
+<li class="resource-item" data-id="a51c7cc2-9062-4c73-8d75-c3ae16938c8e">
+  
+  
+  <a class="heading" href="/dataset/dispensing-by-contractor/resource/a51c7cc2-9062-4c73-8d75-c3ae16938c8e" title="Dispensed Items by GP and Pharmacy, July 2018">
+    Dispensed Items by GP and Pharmacy, July 2018<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+  
+
+  
+    <p class="description">
+      
+        For each GP practice in Northern Ireland, the following information is...
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <i class="icon-share-alt"></i>
+      Explore
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      
+      <li>
+        <a href="/dataset/dispensing-by-contractor/resource/a51c7cc2-9062-4c73-8d75-c3ae16938c8e">
+          
+            <i class="icon-bar-chart"></i>
+            Preview
+          
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://www.opendatani.gov.uk/dataset/f6f91659-7687-4d99-8813-60e9f38c41ce/resource/a51c7cc2-9062-4c73-8d75-c3ae16938c8e/download/dispensed-items-by-gp-and-pharmacy-july-2018.csv" class="resource-url-analytics" target="_blank">
+          
+            <i class="icon-download"></i>
+            Download
+          
+        </a>
+      </li>
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+          
+            
+
+
+
+<li class="resource-item" data-id="565b7b7b-034d-478f-b8a7-1d84f8c4e6ea">
+  
+  
+  <a class="heading" href="/dataset/dispensing-by-contractor/resource/565b7b7b-034d-478f-b8a7-1d84f8c4e6ea" title="Dispensed Items by GP and Pharmacy, June 2018">
+    Dispensed Items by GP and Pharmacy, June 2018<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+  
+
+  
+    <p class="description">
+      
+        For each GP practice in Northern Ireland, the following information is...
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <i class="icon-share-alt"></i>
+      Explore
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      
+      <li>
+        <a href="/dataset/dispensing-by-contractor/resource/565b7b7b-034d-478f-b8a7-1d84f8c4e6ea">
+          
+            <i class="icon-bar-chart"></i>
+            Preview
+          
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://www.opendatani.gov.uk/dataset/f6f91659-7687-4d99-8813-60e9f38c41ce/resource/565b7b7b-034d-478f-b8a7-1d84f8c4e6ea/download/dispensed-items-by-gp-and-pharmacy-june-2018.csv" class="resource-url-analytics" target="_blank">
+          
+            <i class="icon-download"></i>
+            Download
+          
+        </a>
+      </li>
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+          
+            
+
+
+
+<li class="resource-item" data-id="661cf669-32d6-474c-8b16-088bfb4c5a6f">
+  
+  
+  <a class="heading" href="/dataset/dispensing-by-contractor/resource/661cf669-32d6-474c-8b16-088bfb4c5a6f" title="Dispensed Items by GP and Pharmacy, May 2018">
+    Dispensed Items by GP and Pharmacy, May 2018<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+  
+
+  
+    <p class="description">
+      
+        For each GP practice in Northern Ireland, the following information is...
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <i class="icon-share-alt"></i>
+      Explore
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      
+      <li>
+        <a href="/dataset/dispensing-by-contractor/resource/661cf669-32d6-474c-8b16-088bfb4c5a6f">
+          
+            <i class="icon-bar-chart"></i>
+            Preview
+          
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://www.opendatani.gov.uk/dataset/f6f91659-7687-4d99-8813-60e9f38c41ce/resource/661cf669-32d6-474c-8b16-088bfb4c5a6f/download/dispensed-items-by-gp-and-pharmacy-may-2018.csv" class="resource-url-analytics" target="_blank">
+          
+            <i class="icon-download"></i>
+            Download
+          
+        </a>
+      </li>
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+          
+            
+
+
+
+<li class="resource-item" data-id="7ab485b3-dd63-4f16-98d3-fd962db7ebf5">
+  
+  
+  <a class="heading" href="/dataset/dispensing-by-contractor/resource/7ab485b3-dd63-4f16-98d3-fd962db7ebf5" title="Dispensed Items by GP and Pharmacy, April 2018">
+    Dispensed Items by GP and Pharmacy, April 2018<span class="format-label" property="dc:format" data-format="csv">CSV</span>
+    
+
+  </a>
+  
+  
+  
+
+  
+    <p class="description">
+      
+        For each GP practice in Northern Ireland, the following information is...
+      
+    </p>
+  
+  
+  
+  <div class="dropdown btn-group">
+    <a href="#" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+      <i class="icon-share-alt"></i>
+      Explore
+      <span class="caret"></span>
+    </a>
+    <ul class="dropdown-menu">
+      
+      <li>
+        <a href="/dataset/dispensing-by-contractor/resource/7ab485b3-dd63-4f16-98d3-fd962db7ebf5">
+          
+            <i class="icon-bar-chart"></i>
+            Preview
+          
+        </a>
+      </li>
+      
+      <li>
+        <a href="https://www.opendatani.gov.uk/dataset/f6f91659-7687-4d99-8813-60e9f38c41ce/resource/7ab485b3-dd63-4f16-98d3-fd962db7ebf5/download/dispensed-items-by-gp-and-pharmacy-april-2018.csv" class="resource-url-analytics" target="_blank">
+          
+            <i class="icon-download"></i>
+            Download
+          
+        </a>
+      </li>
+      
+      
+      
+    </ul>
+  </div>
+  
+  
+</li>
+          
+        
+      </ul>
+    
+    
+</section>
+  
+
+  
+    
+  <section class="tags">
+    
+
+
+  <ul class="tag-list well">
+    
+      <li>
+        <a class="tag" href="/dataset?tags=Contractor">Contractor</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset?tags=Dispensing">Dispensing</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset?tags=Drugs">Drugs</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset?tags=GP">GP</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset?tags=GP+Prescribing">GP Prescribing</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset?tags=General+Practitioner">General Practitioner</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset?tags=Health">Health</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset?tags=Medication">Medication</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset?tags=Pharmacy">Pharmacy</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset?tags=Prescribing">Prescribing</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset?tags=Prescriptions">Prescriptions</a>
+      </li>
+    
+      <li>
+        <a class="tag" href="/dataset?tags=Primary+Care">Primary Care</a>
+      </li>
+    
+  </ul>
+
+  </section>
+
+  
+
+  
+  <section class="additional-info">
+  <h3>Additional Info</h3>
+  <table class="table table-striped table-bordered table-condensed">
+    <thead>
+      <tr>
+        <th scope="col">Field</th>
+        <th scope="col">Value</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+          <tr>
+            <th scope="row" class="dataset-label">Creation Date</th>
+            <td class="dataset-details">October 9, 2018, 13:09 (UTC)</td>
+          </tr>
+          <tr>
+        <th scope="row" class="dataset-label">Topic Category</th>
+        <td class="dataset-details">Health</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Lineage</th>
+        <td class="dataset-details"><p>The Business Services Organisation (BSO) is the provider of the data.  Contractor level dispensing data is obtained from the BSO's prescribing and dispensing information systems.</p></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Frequency of Update</th>
+        <td class="dataset-details">Monthly</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Contact Name</th>
+        <td class="dataset-details">Family Practitioner Service Information and Registration Unit</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Contact Email</th>
+        <td class="dataset-details">bso.opendata@hscni.net</td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Additional Information</th>
+        <td class="dataset-details"><p>Further General Practitioner statistics can be found on the Business Services Organisation website - <a href="http://www.hscbusiness.hscni.net/services/1802.htm" target="_blank" rel="nofollow">http://www.hscbusiness.hscni.net/services/1802.htm</a></p></td>
+      </tr><tr>
+        <th scope="row" class="dataset-label">Visibility</th>
+        <td class="dataset-details">False</td>
+      </tr>
+
+      
+    </tbody>
+  </table>
+</section>
+
+
+
+  
+    <div class="module-content disqus-comments">
+
+    <script type="text/javascript">
+    //Check to see if user is logged in.  If so send the info.
+        var disqus_config = function() {
+            this.language = "en";
+
+            
+            
+            this.page.remote_auth_s3 = "eyJ1c2VybmFtZSI6ICIiLCAiaWQiOiAiIiwgImVtYWlsIjogIiJ9 f6759b6bf1e90b9ca108e5e89aef07f3907330b7 1549452612";
+            this.page.api_key = "EnTPrPAknKRQDbVZNGxlZzc1Tjp3p9FylVjSTY4Qa3Kgum7yP7qUxjL894nueNIp";
+
+            // This adds the custom login/logout functionality
+            this.sso = {
+                  name:   "Open Data NI",
+                  button:  "https://www.opendatani.gov.uk/images/samplenews.gif",
+                  icon:     "https://www.opendatani.gov.uk/favicon.ico",
+                  url:        "https://www.opendatani.gov.uk/user/login",
+                  logout:  "https://www.opendatani.gov.uk/user/_logout",
+                  width:   "950",
+                  height:  "550"
+            };
+            
+        }
+    </script>
+
+  <div id="disqus_thread"></div>
+
+  <script type="text/javascript">
+    var disqus_shortname =  'opendatani';
+    var disqus_identifier = 'dataset::f6f91659-7687-4d99-8813-60e9f38c41ce';
+
+      /* * * DON'T EDIT BELOW THIS LINE * * */
+      (function() {
+          var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+          dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+          (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+      })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+  <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+  
+
+                    </div>
+                  </article>
+                
+              </div>
+            
+
+            
+              <aside class="secondary span3">
+                
+                
+
+  
+
+  
+    
+
+  
+    <section class="module module-narrow">
+      <div class="module context-info">
+        <div class="module-content">
+          
+            
+              <h1 class="heading">Dispensing by Contractor</h1>
+            
+            
+              <div class="nums">
+                <dl>
+                  <dt>Followers</dt>
+                  <dd><span>0</span></dd>
+                </dl>
+              </div>
+            
+            
+              
+                <div class="follow_button">
+                  
+                </div>
+              
+            
+          
+        </div>
+      </div>
+    </section>
+  
+
+  
+
+  
+    
+      
+      
+
+
+
+
+  
+  <div class="module module-narrow module-shallow context-info">
+    
+      <h2 class="module-heading"><i class="icon-building"></i> Organization</h2>
+    
+    <section class="module-content">
+      
+      
+        <div class="image">
+          <a href="/organization/business-services-organisation">
+            <img src="https://www.opendatani.gov.uk/uploads/group/2015-11-23-103210.694656gifbso.gif" width="200" alt="business-services-organisation" />
+          </a>
+        </div>
+      
+      
+    <h1 class="heading">
+        
+            Business Services Organisation
+        
+        
+    </h1>
+
+      
+    
+      
+        <p>
+          Business Services Organisation provides a broad range of business support functions and specialist professional services to the health and social care sector in Northern Ireland.
+          <a href="/organization/about/business-services-organisation">read more</a>
+        </p>
+      
+      
+        
+
+      
+      
+    </section>
+  </div>
+  
+    
+  
+
+  
+    
+
+  <section class="module module-narrow social">
+    
+      <h2 class="module-heading"><i class="icon-medium icon-share"></i> Social</h2>
+    
+    
+      <ul class="nav nav-simple">
+        <li class="nav-item"><a href="https://plus.google.com/share?url=https://www.opendatani.gov.uk/dataset/dispensing-by-contractor" target="_blank"><i class="icon-google-plus-sign"></i> Google+</a></li>
+        <li class="nav-item"><a href="https://twitter.com/share?url=https://www.opendatani.gov.uk/dataset/dispensing-by-contractor" target="_blank"><i class="icon-twitter-sign"></i> Twitter</a></li>
+        <li class="nav-item"><a href="https://www.facebook.com/sharer.php?u=https://www.opendatani.gov.uk/dataset/dispensing-by-contractor" target="_blank"><i class="icon-facebook-sign"></i> Facebook</a></li>
+      </ul>
+    
+  </section>
+
+  
+
+  
+    
+
+
+  
+    
+      
+        <section class="module module-narrow module-shallow license">
+          
+            <h2 class="module-heading"><i class="icon-medium icon-lock"></i> License</h2>
+          
+          
+            <p class="module-content">
+              
+                
+  
+    <a href="http://reference.data.gov.uk/id/open-government-licence" rel="dc:rights">UK Open Government Licence</a>
+  
+
+                
+                  <a href="http://opendefinition.org/okd/" title="This dataset satisfies the Open Definition.">
+                      <img class="open-data" src="/base/images/od_80x15_blue.png" alt="[Open Data]" />
+                  </a>
+                
+              
+            </p>
+          
+        </section>
+      
+    
+  
+
+  
+
+
+              </aside>
+            
+          </div>
+        
+      </div>
+    </div>
+  
+    <footer class="site-footer">
+  <div class="container">
+    
+  <div class="logos row">
+    <div class="span3">
+      <a href="http://www.nidirect.gov.uk/" target="_blank"><img src="/logos/nidirect.png" width="121" alt="NI Direct"></a>
+    </div>
+    <div class="span3">
+      <a href="/about" target="_blank"><img src="/logos/digitalni.png" width="220" alt="Digital NI"></a>
+    </div>
+    <div class="span3">
+      <a href="http://ckan.org/" target="_blank"><img src="/logos/ckan.png" width="133" alt="CKAN"></a>
+    </div>
+    <div class="span3">
+      <a href="https://www.viderum.com/" target="_blank"><img src="/logos/viderum-logo.png" width="170" alt="Viderum Ltd."></a>
+    </div>
+  </div>
+
+  <a href="/cookies">Cookies</a> | <a href="/privacy">Data protection</a> | <a href="/code-of-conduct">Code of conduct</a> | <a href="/terms-and-conditions">Terms &amp; conditions</a> | <a href="http://docs.ckan.org/en/latest/api/index.html" target="_blank">CKAN API</a>
+
+
+  </div>
+
+  
+    
+  
+</footer>
+  
+    
+    
+    
+  
+  
+  
+    
+  
+    
+    <div class="js-hide" data-module="google-analytics"
+      data-module-googleanalytics_resource_prefix="">
+    </div>
+  
+
+  
+
+
+      
+  <script>document.getElementsByTagName('html')[0].className += ' js';</script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2019-01-16T12:07:16/jquery.min.js"></script>
+<script type="text/javascript" src="/fanstatic/vendor/:version:2019-01-16T12:07:16/:bundle:bootstrap/js/bootstrap.min.js;jed.min.js;moment-with-locales.js;select2/select2.min.js"></script>
+<script type="text/javascript" src="/fanstatic/base/:version:2019-01-16T12:07:16/:bundle:plugins/jquery.inherit.min.js;plugins/jquery.proxy-all.min.js;plugins/jquery.url-helpers.min.js;plugins/jquery.date-helpers.min.js;plugins/jquery.slug.min.js;plugins/jquery.slug-preview.min.js;plugins/jquery.truncator.min.js;plugins/jquery.masonry.min.js;plugins/jquery.form-warning.min.js;sandbox.min.js;module.min.js;pubsub.min.js;client.min.js;notify.min.js;i18n.min.js;main.min.js;modules/select-switch.min.js;modules/slug-preview.min.js;modules/basic-form.min.js;modules/confirm-action.min.js;modules/api-info.min.js;modules/autocomplete.min.js;modules/custom-fields.min.js;modules/data-viewer.min.js;modules/table-selectable-rows.min.js;modules/resource-form.min.js;modules/resource-upload-field.min.js;modules/resource-reorder.min.js;modules/resource-view-reorder.min.js;modules/follow.min.js;modules/activity-stream.min.js;modules/dashboard.min.js;modules/resource-view-embed.min.js;view-filters.min.js;modules/resource-view-filters-form.min.js;modules/resource-view-filters.min.js;modules/table-toggle-more.min.js;modules/dataset-visibility.min.js;modules/media-grid.min.js;modules/image-upload.min.js"></script>
+<script type="text/javascript" src="/fanstatic/ckanext-googleanalytics/:version:2019-01-16T13:32:00/googleanalytics_event_tracking.js"></script>
+<script type="text/javascript" src="/fanstatic/opendatani/:version:2019-01-16T13:32:15/js/jquery.adaptive-backgrounds.js"></script>
+<script type="text/javascript" src="/fanstatic/pages/:version:2019-01-16T13:32:05/:bundle:js/medium-editor.min.js;js/pages-editor.js"></script></body>
+</html>
